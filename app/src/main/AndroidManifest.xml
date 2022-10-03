@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.helloandroid">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelloAndroid">
+        <activity android:name=".Activity_down_file" />
+        <activity android:name=".Activity_web" />
+        <activity android:name=".Activity_socket" />
+        <activity android:name=".Activity_client" />
+        <activity android:name=".Activity_get" />
+        <activity android:name=".Activity_test" />
+        <activity android:name=".Activity_gps_setting" />
+        <activity android:name=".Activity_gps_ce" />
+        <activity android:name=".Activity_shezhi" />
+        <activity android:name=".Activity_zhineng" />
+        <activity android:name=".Activity_gson" />
+        <activity android:name=".Activity_json" />
+        <activity android:name=".Activity_okhttp_feng" />
+        <activity android:name=".Activity_view_pro" />
+        <activity android:name=".Activity_View_ce" />
+        <activity android:name=".Activity_lian" />
+        <activity android:name=".Activity_addxi" />
+        <activity android:name=".Activity_xihao" />
+        <activity android:name=".Activity_shai" />
+        <activity android:name=".Activity_jie" />
+        <activity android:name=".Activity_da_syt" />
+        <activity android:name=".Activity_da_dn" />
+        <activity android:name=".Activity_dapei" />
+        <activity android:name=".Activity_geren" />
+        <activity android:name=".Activity_judge" />
+        <activity android:name=".Activity_in" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- 接收下载任务的下载完成事件 -->
+        <receiver android:name=".Activity_down_file$DownloadCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver> <!-- 接收通知栏上的下载任务点击事件 -->
+        <receiver android:name=".Activity_down_file$NotificationClickReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

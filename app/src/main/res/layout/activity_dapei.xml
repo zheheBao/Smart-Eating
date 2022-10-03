@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lan_beijing"
+    android:orientation="vertical"
+    tools:context=".Activity_dapei">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="请选择你所搭配食物所在的餐厅"
+        android:layout_margin="10dp"
+        >
+
+    </TextView>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+
+        <Button
+            android:id="@+id/textview_dapei_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+
+            android:layout_weight="1"
+            android:text="东南餐厅"
+            >
+
+
+        </Button>
+
+        <Button
+            android:id="@+id/textview_dapei_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+
+            android:layout_weight="1"
+            android:text="思源堂餐厅"
+            >
+
+        </Button>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="查看以往的测试记录请点击"
+        android:layout_margin="10dp"
+        android:textColor="#009688"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="进入"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="根据您的测试记录，小助手溪溪为您智能搭配："
+        android:layout_margin="10dp"
+        android:textColor="#009688"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="查看"
+        />
+
+</LinearLayout>

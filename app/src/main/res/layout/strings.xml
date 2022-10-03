@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="WrongFolder">
+    <string android:name="app_name">HelloAndroid</string>
+    <string android:name="辣">香辣味能刺激唾液和胃液的分泌，增加食欲，促进肠道蠕动，帮助消
+        化。过多食用辣椒素会剧烈刺激胃肠黏膜，引起胃痛。所以建议较少的使用此类食物。 </string>
+
+    <string android:name="肉类">肉类食物吸收率高、饱腹感强、味道鲜美、营养价值高。肉类食物主要
+        提供蛋白质、脂肪、无机盐及维生素等。肉类蛋白质含量为10%～20%。肉类食物中无机盐总量为0.6%～1.1%，
+        其中人体必需的钙、磷、铁、钾、镁、铜、锌、钼含量都很高，建议适当食用。 </string>
+</resources>

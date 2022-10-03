@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lan_beijing"
+    android:orientation="vertical"
+    tools:context=".Activity_judge">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你的选择日期是："
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="#03A9F4"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview_judge_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你今日的饮食获取如下："
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="#2196F3"
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/textview_judge_2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/p2"
+        >
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textview_judge_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textSize="20sp"
+        android:textColor="#2196F3"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview_judge_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+
+
+
+                        "
+        >
+
+    </TextView>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/textview_judge_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="个人中心"
+            android:layout_margin="10dp"
+
+
+
+            >
+        </Button>
+
+
+        <Button
+            android:id="@+id/textview_judge_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搭配分析"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+
+
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/textview_judge_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="晒搭配"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+
+            >
+        </Button>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

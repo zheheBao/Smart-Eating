@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lan_beijing"
+    tools:context=".Activity_in">
+
+    <TextView
+        android:id="@+id/textview_in_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview_in_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下列为可选择的美食：">
+
+
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/textview_in_4"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/p2"
+
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textview_in_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你选择的美食为编号：1">
+
+
+    </TextView>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/textview_in_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:text="change"
+
+
+            android:layout_gravity="center"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/textview_in_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok"
+
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            >
+
+        </Button>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请记录下今天搭配的日期：">
+
+
+    </TextView>
+
+    <DatePicker
+
+        android:id="@+id/textview_in_5"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+
+
+    </DatePicker>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

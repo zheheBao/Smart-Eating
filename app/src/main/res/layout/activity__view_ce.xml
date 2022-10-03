@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lan_beijing"
+    tools:context=".Activity_View_ce">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/But_1"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="okhttp抓取数据"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/But_2"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="okhttp封装数据"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/But_3"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="json"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/But_4"
+        android:layout_margin="10dp"
+        android:text="GPS定位"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/But_5"
+        android:layout_margin="10dp"
+        android:text="GPS设置"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/But_6"
+        android:layout_margin="10dp"
+        android:text="test"
+        />
+
+
+</LinearLayout>
